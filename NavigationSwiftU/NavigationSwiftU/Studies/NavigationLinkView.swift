@@ -23,8 +23,11 @@ struct DetailView: View {
 struct NavigationLinkView: View {
     var body: some View {
         NavigationStack {
-            NavigationLink("Tap me") {
-                DetailView(number: 888)
+            List(0..<20) { i in
+                DetailView(number: i)
+            }
+            .navigationDestination(for: Int.self) { selection in
+                Text("You selected \(selection)")
             }
         }
     }
