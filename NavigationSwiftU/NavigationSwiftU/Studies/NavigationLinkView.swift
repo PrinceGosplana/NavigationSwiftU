@@ -24,11 +24,13 @@ struct NavigationLinkView: View {
     var body: some View {
         NavigationStack {
             List(0..<20) { i in
-                DetailView(number: i)
+                NavigationLink(destination: DetailView(number: i), label: {
+                    Text("Select \(i)")
+                })
             }
-            .navigationDestination(for: Int.self) { selection in
-                Text("You selected \(selection)")
-            }
+//            .navigationDestination(for: Int.self) { selection in
+//                Text("You selected \(selection)")
+//            }
         }
     }
 }
