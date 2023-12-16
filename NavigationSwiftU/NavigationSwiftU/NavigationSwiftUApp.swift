@@ -11,7 +11,8 @@ import SwiftUI
 struct NavigationSwiftUApp: App {
     var body: some Scene {
         WindowGroup {
-            NavigationLinkView()
+            NavigationPathView()
+//            NavigationLinkView()
         }
     }
 }
