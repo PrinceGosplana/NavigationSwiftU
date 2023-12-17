@@ -16,8 +16,15 @@ struct DetailNavView: View {
     }
 }
 struct NavStackReturnToRootView: View {
+    @State private var path = [Int]()
+    
     var body: some View {
-        Text("Hello, World!")
+        NavigationStack(path: $path) {
+            DetailNavView(number: 0)
+                .navigationDestination(for: Int.self) { i in
+                    DetailNavView(number: i)
+                }
+        }
     }
 }
 
