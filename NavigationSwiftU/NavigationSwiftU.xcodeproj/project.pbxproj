@@ -18,6 +18,7 @@
 		95AC09FC2B2EF6C90001DCC7 /* PathStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AC09FB2B2EF6C90001DCC7 /* PathStoreView.swift */; };
 		95AC09FE2B2EF8720001DCC7 /* CustomNavBarAppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AC09FD2B2EF8720001DCC7 /* CustomNavBarAppearanceView.swift */; };
 		95AC0A002B2F04E70001DCC7 /* ButtonsOnToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AC09FF2B2F04E70001DCC7 /* ButtonsOnToolbarView.swift */; };
+		95AC0A022B2F07420001DCC7 /* EditableNavigationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AC0A012B2F07420001DCC7 /* EditableNavigationTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		95AC09FB2B2EF6C90001DCC7 /* PathStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathStoreView.swift; sourceTree = "<group>"; };
 		95AC09FD2B2EF8720001DCC7 /* CustomNavBarAppearanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarAppearanceView.swift; sourceTree = "<group>"; };
 		95AC09FF2B2F04E70001DCC7 /* ButtonsOnToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsOnToolbarView.swift; sourceTree = "<group>"; };
+		95AC0A012B2F07420001DCC7 /* EditableNavigationTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableNavigationTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				95AC09FB2B2EF6C90001DCC7 /* PathStoreView.swift */,
 				95AC09FD2B2EF8720001DCC7 /* CustomNavBarAppearanceView.swift */,
 				95AC09FF2B2F04E70001DCC7 /* ButtonsOnToolbarView.swift */,
+				95AC0A012B2F07420001DCC7 /* EditableNavigationTitleView.swift */,
 			);
 			path = Studies;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				95AC09FE2B2EF8720001DCC7 /* CustomNavBarAppearanceView.swift in Sources */,
 				95AC09E32B2AB4850001DCC7 /* NavigationSwiftUApp.swift in Sources */,
 				95AC0A002B2F04E70001DCC7 /* ButtonsOnToolbarView.swift in Sources */,
+				95AC0A022B2F07420001DCC7 /* EditableNavigationTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
