@@ -14,6 +14,7 @@
 		95AC09F42B2AB4AF0001DCC7 /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AC09F32B2AB4AF0001DCC7 /* NavigationLinkView.swift */; };
 		95AC09F62B2C055C0001DCC7 /* ProgrammaticNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AC09F52B2C055C0001DCC7 /* ProgrammaticNavigationView.swift */; };
 		95AC09F82B2D5EA60001DCC7 /* NavigationPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AC09F72B2D5EA60001DCC7 /* NavigationPathView.swift */; };
+		95AC09FA2B2EBA2E0001DCC7 /* NavStackReturnToRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AC09F92B2EBA2E0001DCC7 /* NavStackReturnToRootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		95AC09F32B2AB4AF0001DCC7 /* NavigationLinkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
 		95AC09F52B2C055C0001DCC7 /* ProgrammaticNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigationView.swift; sourceTree = "<group>"; };
 		95AC09F72B2D5EA60001DCC7 /* NavigationPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPathView.swift; sourceTree = "<group>"; };
+		95AC09F92B2EBA2E0001DCC7 /* NavStackReturnToRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStackReturnToRootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				95AC09F32B2AB4AF0001DCC7 /* NavigationLinkView.swift */,
 				95AC09F52B2C055C0001DCC7 /* ProgrammaticNavigationView.swift */,
 				95AC09F72B2D5EA60001DCC7 /* NavigationPathView.swift */,
+				95AC09F92B2EBA2E0001DCC7 /* NavStackReturnToRootView.swift */,
 			);
 			path = Studies;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			files = (
 				95AC09F62B2C055C0001DCC7 /* ProgrammaticNavigationView.swift in Sources */,
 				95AC09F82B2D5EA60001DCC7 /* NavigationPathView.swift in Sources */,
+				95AC09FA2B2EBA2E0001DCC7 /* NavStackReturnToRootView.swift in Sources */,
 				95AC09F42B2AB4AF0001DCC7 /* NavigationLinkView.swift in Sources */,
 				95AC09E52B2AB4850001DCC7 /* ContentView.swift in Sources */,
 				95AC09E32B2AB4850001DCC7 /* NavigationSwiftUApp.swift in Sources */,
